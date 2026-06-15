@@ -1,4 +1,0 @@
-source;share/cuda_depth_register/local_setup.bash
-source;share/cuda_depth_register/local_setup.dsv
-source;share/cuda_depth_register/local_setup.sh
-source;share/cuda_depth_register/local_setup.zsh

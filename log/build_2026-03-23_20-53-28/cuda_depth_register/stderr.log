@@ -1,8 +1,0 @@
-[01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(83)[0m: [01;31merror[0m: expression must be a modifiable lvalue
-      &z_buffer[out_idx] = z_uint;
-      ^
-
-1 error detected in the compilation of "/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu".
-gmake[2]: *** [CMakeFiles/depth_register_cuda.dir/build.make:77: CMakeFiles/depth_register_cuda.dir/src/depth_register.cu.o] Error 2
-gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/depth_register_cuda.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

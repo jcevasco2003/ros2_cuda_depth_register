@@ -1,4 +1,0 @@
-[ 25%] [32mBuilding CUDA object CMakeFiles/depth_register_cuda.dir/src/depth_register.cu.o[0m
-[ 50%] [32m[1mLinking CUDA static library libdepth_register_cuda.a[0m
-[ 50%] Built target depth_register_cuda
-[ 75%] [32mBuilding CXX object CMakeFiles/cuda_depth_register_node.dir/src/cuda_depth_register_node.cpp.o[0m
