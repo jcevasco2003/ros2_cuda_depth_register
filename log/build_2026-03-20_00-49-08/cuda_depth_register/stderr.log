@@ -1,0 +1,52 @@
+[33mCMake Warning (dev) at /usr/local/lib/cmake/opencv4/OpenCVConfig.cmake:86 (find_package):
+  Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake
+  --help-policy CMP0146" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /usr/local/lib/cmake/opencv4/OpenCVConfig.cmake:108 (find_host_package)
+  /opt/ros/rolling/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/rolling/share/cv_bridge/cmake/cv_bridgeConfig.cmake:41 (include)
+  CMakeLists.txt:12 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at CMakeLists.txt:14 (find_package):
+  Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake
+  --help-policy CMP0146" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(cuda_depth_register_node PUBLIC
+      ${sensor_msgs_TARGETS}
+      cv_bridge::cv_bridge
+      image_transport::image_transport
+      rclcpp::rclcpp
+      sensor_msgs::sensor_msgs_library
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:33 (ament_target_dependencies)
+
+[0m
+In file included from /usr/local/cuda-12.3/include/cuda_runtime.h:82,
+                 from <command-line>:
+/usr/local/cuda-12.3/include/crt/host_config.h:143:2: error: #error -- unsupported GNU version! gcc versions later than 12 are not supported! The nvcc flag '-allow-unsupported-compiler' can be used to override this version check; however, using an unsupported host compiler may cause compilation failure or incorrect run time execution. Use at your own risk.
+  143 | #error -- unsupported GNU version! gcc versions later than 12 are not supported! The nvcc flag '-allow-unsupported-compiler' can be used to override this version check; however, using an unsupported host compiler may cause compilation failure or incorrect run time execution. Use at your own risk.
+      |  ^~~~~
+/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu:4:10: fatal error: depth_register.hpp: No such file or directory
+    4 | #include "depth_register.hpp"
+      |          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+[31mCMake Error at depth_register_cuda_generated_depth_register.cu.o.cmake:220 (message):
+  Error generating
+  /home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register/CMakeFiles/depth_register_cuda.dir/src/./depth_register_cuda_generated_depth_register.cu.o
+
+[0m
+gmake[2]: *** [CMakeFiles/depth_register_cuda.dir/build.make:77: CMakeFiles/depth_register_cuda.dir/src/depth_register_cuda_generated_depth_register.cu.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:164: CMakeFiles/depth_register_cuda.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

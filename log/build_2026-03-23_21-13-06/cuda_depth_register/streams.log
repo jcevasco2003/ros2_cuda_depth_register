@@ -1,0 +1,15 @@
+[0.016s] Invoking command in '/home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register -- -j6 -l6
+[0.100s] [ 25%] [32mBuilding CUDA object CMakeFiles/depth_register_cuda.dir/src/depth_register.cu.o[0m
+[0.618s] [01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(215)[0m: [01;31merror[0m: expected a ";"
+[0.618s]       if (measureTime) {cudaEventRecord(start)};
+[0.618s]                                               ^
+[0.618s] 
+[0.618s] [01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(235)[0m: [01;31merror[0m: expected a ";"
+[0.618s]       if (measureTime) {cudaEventRecord(start)};
+[0.618s]                                               ^
+[0.618s] 
+[0.622s] 2 errors detected in the compilation of "/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu".
+[0.641s] gmake[2]: *** [CMakeFiles/depth_register_cuda.dir/build.make:77: CMakeFiles/depth_register_cuda.dir/src/depth_register.cu.o] Error 2
+[0.642s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/depth_register_cuda.dir/all] Error 2
+[0.642s] gmake: *** [Makefile:146: all] Error 2
+[0.645s] Invoked command in '/home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register -- -j6 -l6

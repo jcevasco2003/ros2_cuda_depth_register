@@ -1,0 +1,11 @@
+[0.013s] Invoking command in '/home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register -- -j6 -l6
+[0.082s] [ 25%] [32mBuilding CUDA object CMakeFiles/depth_register_cuda.dir/src/depth_register.cu.o[0m
+[0.582s] [01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(126)[0m: [01;31merror[0m: namespace [01m"std"[0m has no member "[01mmemcpy[0m"
+[0.582s]       std::memcpy(&inf_uint, &inf, sizeof(float));
+[0.582s]            ^
+[0.582s] 
+[0.584s] 1 error detected in the compilation of "/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu".
+[0.603s] gmake[2]: *** [CMakeFiles/depth_register_cuda.dir/build.make:77: CMakeFiles/depth_register_cuda.dir/src/depth_register.cu.o] Error 2
+[0.603s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/depth_register_cuda.dir/all] Error 2
+[0.603s] gmake: *** [Makefile:146: all] Error 2
+[0.607s] Invoked command in '/home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register -- -j6 -l6

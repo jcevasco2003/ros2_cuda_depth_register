@@ -1,0 +1,27 @@
+[0.023s] Invoking command in '/home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register -- -j6 -l6
+[0.244s] [ 25%] [32mBuilding CUDA object CMakeFiles/depth_register_cuda.dir/src/depth_register.cu.o[0m
+[2.090s] [ 50%] [32m[1mLinking CUDA static library libdepth_register_cuda.a[0m
+[2.141s] [ 50%] Built target depth_register_cuda
+[2.214s] [ 75%] [32m[1mLinking CXX executable cuda_depth_register_node[0m
+[3.061s] [100%] Built target cuda_depth_register_node
+[3.076s] Invoked command in '/home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register -- -j6 -l6
+[3.095s] Invoking command in '/home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --install /home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register
+[3.106s] -- Install configuration: ""
+[3.108s] -- Installing: /home/jorge/ros2_thesis_ws/src/cuda_depth_register/install/cuda_depth_register/lib/cuda_depth_register/cuda_depth_register_node
+[3.120s] -- Set non-toolchain portion of runtime path of "/home/jorge/ros2_thesis_ws/src/cuda_depth_register/install/cuda_depth_register/lib/cuda_depth_register/cuda_depth_register_node" to ""
+[3.120s] -- Up-to-date: /home/jorge/ros2_thesis_ws/src/cuda_depth_register/install/cuda_depth_register/share/ament_index/resource_index/package_run_dependencies/cuda_depth_register
+[3.120s] -- Up-to-date: /home/jorge/ros2_thesis_ws/src/cuda_depth_register/install/cuda_depth_register/share/ament_index/resource_index/parent_prefix_path/cuda_depth_register
+[3.120s] -- Up-to-date: /home/jorge/ros2_thesis_ws/src/cuda_depth_register/install/cuda_depth_register/share/cuda_depth_register/environment/ament_prefix_path.sh
+[3.121s] -- Up-to-date: /home/jorge/ros2_thesis_ws/src/cuda_depth_register/install/cuda_depth_register/share/cuda_depth_register/environment/ament_prefix_path.dsv
+[3.121s] -- Up-to-date: /home/jorge/ros2_thesis_ws/src/cuda_depth_register/install/cuda_depth_register/share/cuda_depth_register/environment/path.sh
+[3.121s] -- Up-to-date: /home/jorge/ros2_thesis_ws/src/cuda_depth_register/install/cuda_depth_register/share/cuda_depth_register/environment/path.dsv
+[3.121s] -- Up-to-date: /home/jorge/ros2_thesis_ws/src/cuda_depth_register/install/cuda_depth_register/share/cuda_depth_register/local_setup.bash
+[3.121s] -- Up-to-date: /home/jorge/ros2_thesis_ws/src/cuda_depth_register/install/cuda_depth_register/share/cuda_depth_register/local_setup.sh
+[3.121s] -- Up-to-date: /home/jorge/ros2_thesis_ws/src/cuda_depth_register/install/cuda_depth_register/share/cuda_depth_register/local_setup.zsh
+[3.122s] -- Up-to-date: /home/jorge/ros2_thesis_ws/src/cuda_depth_register/install/cuda_depth_register/share/cuda_depth_register/local_setup.dsv
+[3.122s] -- Installing: /home/jorge/ros2_thesis_ws/src/cuda_depth_register/install/cuda_depth_register/share/cuda_depth_register/package.dsv
+[3.122s] -- Up-to-date: /home/jorge/ros2_thesis_ws/src/cuda_depth_register/install/cuda_depth_register/share/ament_index/resource_index/packages/cuda_depth_register
+[3.122s] -- Up-to-date: /home/jorge/ros2_thesis_ws/src/cuda_depth_register/install/cuda_depth_register/share/cuda_depth_register/cmake/cuda_depth_registerConfig.cmake
+[3.123s] -- Up-to-date: /home/jorge/ros2_thesis_ws/src/cuda_depth_register/install/cuda_depth_register/share/cuda_depth_register/cmake/cuda_depth_registerConfig-version.cmake
+[3.123s] -- Up-to-date: /home/jorge/ros2_thesis_ws/src/cuda_depth_register/install/cuda_depth_register/share/cuda_depth_register/package.xml
+[3.125s] Invoked command in '/home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --install /home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register

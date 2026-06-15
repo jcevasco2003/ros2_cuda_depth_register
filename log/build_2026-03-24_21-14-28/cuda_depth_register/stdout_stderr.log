@@ -1,0 +1,13 @@
+[ 25%] [32mBuilding CUDA object CMakeFiles/depth_register_cuda.dir/src/depth_register.cu.o[0m
+[01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(37)[0m: [01;31merror[0m: calling a constexpr __host__ function("[01minfinity[0m") from a __global__ function("[01minitZBuffer[0m") is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+      float inf = std::numeric_limits<float>::infinity();
+                  ^
+
+[01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(116)[0m: [01;31merror[0m: calling a constexpr __host__ function("[01minfinity[0m") from a __global__ function("[01mfinalizeKernel[0m") is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+      if (z_ord == floatToOrderedInt(std::numeric_limits<float>::infinity())) {
+                                     ^
+
+2 errors detected in the compilation of "/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu".
+gmake[2]: *** [CMakeFiles/depth_register_cuda.dir/build.make:77: CMakeFiles/depth_register_cuda.dir/src/depth_register.cu.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/depth_register_cuda.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

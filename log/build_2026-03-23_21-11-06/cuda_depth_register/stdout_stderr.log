@@ -1,0 +1,97 @@
+[ 25%] [32mBuilding CUDA object CMakeFiles/depth_register_cuda.dir/src/depth_register.cu.o[0m
+[01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(216)[0m: [01;31merror[0m: identifier "[01mstart[0m" is undefined
+      if (measureTime) {cudaEventRecord(start)};
+                                        ^
+
+[01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(216)[0m: [01;31merror[0m: expected a ";"
+      if (measureTime) {cudaEventRecord(start)};
+                                              ^
+
+[01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(227)[0m: [01;31merror[0m: identifier "[01mstop[0m" is undefined
+          cudaEventRecord(stop);
+                          ^
+
+[01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(229)[0m: [01;31merror[0m: identifier "[01mms[0m" is undefined
+          cudaEventElapsedTime(&ms, start, stop);
+                                ^
+
+[01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(229)[0m: [01;31merror[0m: identifier "[01mstart[0m" is undefined
+          cudaEventElapsedTime(&ms, start, stop);
+                                    ^
+
+[01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(236)[0m: [01;31merror[0m: identifier "[01mstart[0m" is undefined
+      if (measureTime) {cudaEventRecord(start)};
+                                        ^
+
+[01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(236)[0m: [01;31merror[0m: expected a ";"
+      if (measureTime) {cudaEventRecord(start)};
+                                              ^
+
+[01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(248)[0m: [01;31merror[0m: identifier "[01mstop[0m" is undefined
+          cudaEventRecord(stop);
+                          ^
+
+[01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(250)[0m: [01;31merror[0m: identifier "[01mms[0m" is undefined
+          cudaEventElapsedTime(&ms, start, stop);
+                                ^
+
+[01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(250)[0m: [01;31merror[0m: identifier "[01mstart[0m" is undefined
+          cudaEventElapsedTime(&ms, start, stop);
+                                    ^
+
+[01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(257)[0m: [01;31merror[0m: identifier "[01mstart[0m" is undefined
+      if (measureTime) {cudaEventRecord(start);}
+                                        ^
+
+[01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(269)[0m: [01;31merror[0m: identifier "[01mstop[0m" is undefined
+          cudaEventRecord(stop);
+                          ^
+
+[01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(271)[0m: [01;31merror[0m: identifier "[01mms[0m" is undefined
+          cudaEventElapsedTime(&ms, start, stop);
+                                ^
+
+[01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(271)[0m: [01;31merror[0m: identifier "[01mstart[0m" is undefined
+          cudaEventElapsedTime(&ms, start, stop);
+                                    ^
+
+[01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(280)[0m: [01;31merror[0m: identifier "[01mstart[0m" is undefined
+          if (measureTime) {cudaEventRecord(start);}
+                                            ^
+
+[01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(292)[0m: [01;31merror[0m: identifier "[01mstop[0m" is undefined
+              cudaEventRecord(stop);
+                              ^
+
+[01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(294)[0m: [01;31merror[0m: identifier "[01mms[0m" is undefined
+              cudaEventElapsedTime(&ms, start, stop);
+                                    ^
+
+[01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(294)[0m: [01;31merror[0m: identifier "[01mstart[0m" is undefined
+              cudaEventElapsedTime(&ms, start, stop);
+                                        ^
+
+[01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(307)[0m: [01;31merror[0m: identifier "[01mstop_total[0m" is undefined
+          cudaEventRecord(stop_total);
+                          ^
+
+[01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(310)[0m: [01;31merror[0m: identifier "[01mms[0m" is undefined
+          cudaEventElapsedTime(&ms, start_total, stop_total);
+                                ^
+
+[01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(310)[0m: [01;31merror[0m: identifier "[01mstart_total[0m" is undefined
+          cudaEventElapsedTime(&ms, start_total, stop_total);
+                                    ^
+
+[01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(318)[0m: [01;31merror[0m: identifier "[01mstart[0m" is undefined
+          cudaEventDestroy(start);
+                           ^
+
+[01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(319)[0m: [01;31merror[0m: identifier "[01mstop[0m" is undefined
+          cudaEventDestroy(stop);
+                           ^
+
+23 errors detected in the compilation of "/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu".
+gmake[2]: *** [CMakeFiles/depth_register_cuda.dir/build.make:77: CMakeFiles/depth_register_cuda.dir/src/depth_register.cu.o] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/depth_register_cuda.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

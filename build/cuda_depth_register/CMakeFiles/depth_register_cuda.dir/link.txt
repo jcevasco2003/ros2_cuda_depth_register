@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdepth_register_cuda.a CMakeFiles/depth_register_cuda.dir/src/depth_register.cu.o
+/usr/bin/ranlib libdepth_register_cuda.a

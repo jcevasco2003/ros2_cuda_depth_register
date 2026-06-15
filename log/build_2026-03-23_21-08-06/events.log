@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.000182] (cuda_depth_register) JobQueued: {'identifier': 'cuda_depth_register', 'dependencies': OrderedDict()}
+[0.000698] (cuda_depth_register) JobStarted: {'identifier': 'cuda_depth_register'}
+[0.009670] (cuda_depth_register) JobProgress: {'identifier': 'cuda_depth_register', 'progress': 'cmake'}
+[0.010553] (cuda_depth_register) JobProgress: {'identifier': 'cuda_depth_register', 'progress': 'build'}
+[0.011504] (cuda_depth_register) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register', '--', '-j6', '-l6'], 'cwd': '/home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jorge', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jorge/ros2_thesis_ws/src/VIGS-Fusion/install/vigs_fusion/lib:/usr/local/lib:/home/jorge/ros2_thesis_ws/src/f_vigs_slam/install/f_vigs_slam/lib:/usr/local/cuda-12.3/lib64:/opt/ros/rolling/opt/zenoh_cpp_vendor/lib:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib:/usr/local/cuda-11.8/lib64:', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/jorge', 'OLDPWD': '/home/jorge/ros2_thesis_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jorge/ros2_thesis_ws/src/cuda_depth_register/install:/home/jorge/ros2_thesis_ws/src/VIGS-Fusion/install:/home/jorge/ros2_thesis_ws/src/f_vigs_slam/install', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'jorge', 'NAME': 'DESKTOP-ECKJB30', 'WSL_INTEROP': '/run/WSL/284_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/usr/local/cuda-12.3/bin:/opt/ros/rolling/bin:/usr/local/cuda-11.8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/NVIDIA/bin:/mnt/d/NVIDIA/libnvvp:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Users/jorge/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/IntelliJ IDEA Community Edition 2024.3/bin:/mnt/d/Program Files (x86)/Microsoft VS Code/bin:/mnt/c/Users/jorge/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/jorge/.dotnet/tools:/mnt/c/Users/jorge/AppData/Roaming/TinyTeX/bin/windows:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/jorge/ros2_thesis_ws/src/cuda_depth_register/install/cuda_depth_register:/home/jorge/ros2_thesis_ws/src/VIGS-Fusion/install/vigs_fusion:/home/jorge/ros2_thesis_ws/src/f_vigs_slam/install/f_vigs_slam:/opt/ros/rolling', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'OpenCV_DIR': '/usr/local/lib/cmake/opencv4', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/rolling/opt/gz_math_vendor/lib/python:/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/jorge/ros2_thesis_ws/src/cuda_depth_register/install/cuda_depth_register:/home/jorge/ros2_thesis_ws/src/VIGS-Fusion/install/vigs_fusion:/home/jorge/ros2_thesis_ws/src/f_vigs_slam/install/f_vigs_slam:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling', 'WSLENV': ''}), 'shell': False}
+[0.084936] (cuda_depth_register) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CUDA object CMakeFiles/depth_register_cuda.dir/src/depth_register.cu.o\x1b[0m\n'}
+[0.099746] (-) TimerEvent: {}
+[0.200115] (-) TimerEvent: {}
+[0.300472] (-) TimerEvent: {}
+[0.400842] (-) TimerEvent: {}
+[0.501437] (-) TimerEvent: {}
+[0.539296] (cuda_depth_register) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(216)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mstart\x1b[0m" is undefined\n'}
+[0.539595] (cuda_depth_register) StderrLine: {'line': b'      if (measureTime) cudaEventRecord(start);\n'}
+[0.539676] (cuda_depth_register) StderrLine: {'line': b'                                       ^\n'}
+[0.539746] (cuda_depth_register) StderrLine: {'line': b'\n'}
+[0.539814] (cuda_depth_register) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(227)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mstop\x1b[0m" is undefined\n'}
+[0.539882] (cuda_depth_register) StderrLine: {'line': b'          cudaEventRecord(stop);\n'}
+[0.539947] (cuda_depth_register) StderrLine: {'line': b'                          ^\n'}
+[0.540010] (cuda_depth_register) StderrLine: {'line': b'\n'}
+[0.540074] (cuda_depth_register) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(229)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mms\x1b[0m" is undefined\n'}
+[0.540139] (cuda_depth_register) StderrLine: {'line': b'          cudaEventElapsedTime(&ms, start, stop);\n'}
+[0.540203] (cuda_depth_register) StderrLine: {'line': b'                                ^\n'}
+[0.540266] (cuda_depth_register) StderrLine: {'line': b'\n'}
+[0.540329] (cuda_depth_register) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(229)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mstart\x1b[0m" is undefined\n'}
+[0.540392] (cuda_depth_register) StderrLine: {'line': b'          cudaEventElapsedTime(&ms, start, stop);\n'}
+[0.540454] (cuda_depth_register) StderrLine: {'line': b'                                    ^\n'}
+[0.540518] (cuda_depth_register) StderrLine: {'line': b'\n'}
+[0.540580] (cuda_depth_register) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(236)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mstart\x1b[0m" is undefined\n'}
+[0.540643] (cuda_depth_register) StderrLine: {'line': b'      if (measureTime) cudaEventRecord(start);\n'}
+[0.540713] (cuda_depth_register) StderrLine: {'line': b'                                       ^\n'}
+[0.540776] (cuda_depth_register) StderrLine: {'line': b'\n'}
+[0.540839] (cuda_depth_register) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(248)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mstop\x1b[0m" is undefined\n'}
+[0.540902] (cuda_depth_register) StderrLine: {'line': b'          cudaEventRecord(stop);\n'}
+[0.540964] (cuda_depth_register) StderrLine: {'line': b'                          ^\n'}
+[0.541025] (cuda_depth_register) StderrLine: {'line': b'\n'}
+[0.541156] (cuda_depth_register) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(250)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mms\x1b[0m" is undefined\n'}
+[0.541223] (cuda_depth_register) StderrLine: {'line': b'          cudaEventElapsedTime(&ms, start, stop);\n'}
+[0.541288] (cuda_depth_register) StderrLine: {'line': b'                                ^\n'}
+[0.541352] (cuda_depth_register) StderrLine: {'line': b'\n'}
+[0.541417] (cuda_depth_register) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(250)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mstart\x1b[0m" is undefined\n'}
+[0.541538] (cuda_depth_register) StderrLine: {'line': b'          cudaEventElapsedTime(&ms, start, stop);\n'}
+[0.541619] (cuda_depth_register) StderrLine: {'line': b'                                    ^\n'}
+[0.541685] (cuda_depth_register) StderrLine: {'line': b'\n'}
+[0.541749] (cuda_depth_register) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(257)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mstart\x1b[0m" is undefined\n'}
+[0.541814] (cuda_depth_register) StderrLine: {'line': b'      if (measureTime) cudaEventRecord(start);\n'}
+[0.541876] (cuda_depth_register) StderrLine: {'line': b'                                       ^\n'}
+[0.541939] (cuda_depth_register) StderrLine: {'line': b'\n'}
+[0.542001] (cuda_depth_register) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(269)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mstop\x1b[0m" is undefined\n'}
+[0.542064] (cuda_depth_register) StderrLine: {'line': b'          cudaEventRecord(stop);\n'}
+[0.542128] (cuda_depth_register) StderrLine: {'line': b'                          ^\n'}
+[0.542191] (cuda_depth_register) StderrLine: {'line': b'\n'}
+[0.542254] (cuda_depth_register) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(271)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mms\x1b[0m" is undefined\n'}
+[0.542317] (cuda_depth_register) StderrLine: {'line': b'          cudaEventElapsedTime(&ms, start, stop);\n'}
+[0.542457] (cuda_depth_register) StderrLine: {'line': b'                                ^\n'}
+[0.542588] (cuda_depth_register) StderrLine: {'line': b'\n'}
+[0.542784] (cuda_depth_register) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(271)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mstart\x1b[0m" is undefined\n'}
+[0.542938] (cuda_depth_register) StderrLine: {'line': b'          cudaEventElapsedTime(&ms, start, stop);\n'}
+[0.543017] (cuda_depth_register) StderrLine: {'line': b'                                    ^\n'}
+[0.543085] (cuda_depth_register) StderrLine: {'line': b'\n'}
+[0.543151] (cuda_depth_register) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(280)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mstart\x1b[0m" is undefined\n'}
+[0.543216] (cuda_depth_register) StderrLine: {'line': b'          if (measureTime) cudaEventRecord(start);\n'}
+[0.543292] (cuda_depth_register) StderrLine: {'line': b'                                           ^\n'}
+[0.543356] (cuda_depth_register) StderrLine: {'line': b'\n'}
+[0.543420] (cuda_depth_register) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(292)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mstop\x1b[0m" is undefined\n'}
+[0.543492] (cuda_depth_register) StderrLine: {'line': b'              cudaEventRecord(stop);\n'}
+[0.543557] (cuda_depth_register) StderrLine: {'line': b'                              ^\n'}
+[0.543620] (cuda_depth_register) StderrLine: {'line': b'\n'}
+[0.543684] (cuda_depth_register) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(294)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mms\x1b[0m" is undefined\n'}
+[0.543748] (cuda_depth_register) StderrLine: {'line': b'              cudaEventElapsedTime(&ms, start, stop);\n'}
+[0.543812] (cuda_depth_register) StderrLine: {'line': b'                                    ^\n'}
+[0.543875] (cuda_depth_register) StderrLine: {'line': b'\n'}
+[0.543938] (cuda_depth_register) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(294)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mstart\x1b[0m" is undefined\n'}
+[0.544046] (cuda_depth_register) StderrLine: {'line': b'              cudaEventElapsedTime(&ms, start, stop);\n'}
+[0.544115] (cuda_depth_register) StderrLine: {'line': b'                                        ^\n'}
+[0.544180] (cuda_depth_register) StderrLine: {'line': b'\n'}
+[0.544246] (cuda_depth_register) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(307)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mstop_total\x1b[0m" is undefined\n'}
+[0.544312] (cuda_depth_register) StderrLine: {'line': b'          cudaEventRecord(stop_total);\n'}
+[0.544384] (cuda_depth_register) StderrLine: {'line': b'                          ^\n'}
+[0.544448] (cuda_depth_register) StderrLine: {'line': b'\n'}
+[0.544547] (cuda_depth_register) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(310)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mms\x1b[0m" is undefined\n'}
+[0.544624] (cuda_depth_register) StderrLine: {'line': b'          cudaEventElapsedTime(&ms, start_total, stop_total);\n'}
+[0.544690] (cuda_depth_register) StderrLine: {'line': b'                                ^\n'}
+[0.544754] (cuda_depth_register) StderrLine: {'line': b'\n'}
+[0.544817] (cuda_depth_register) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(310)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mstart_total\x1b[0m" is undefined\n'}
+[0.544882] (cuda_depth_register) StderrLine: {'line': b'          cudaEventElapsedTime(&ms, start_total, stop_total);\n'}
+[0.544946] (cuda_depth_register) StderrLine: {'line': b'                                    ^\n'}
+[0.545009] (cuda_depth_register) StderrLine: {'line': b'\n'}
+[0.545073] (cuda_depth_register) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(318)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mstart\x1b[0m" is undefined\n'}
+[0.545137] (cuda_depth_register) StderrLine: {'line': b'          cudaEventDestroy(start);\n'}
+[0.545200] (cuda_depth_register) StderrLine: {'line': b'                           ^\n'}
+[0.545264] (cuda_depth_register) StderrLine: {'line': b'\n'}
+[0.545326] (cuda_depth_register) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(319)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mstop\x1b[0m" is undefined\n'}
+[0.545391] (cuda_depth_register) StderrLine: {'line': b'          cudaEventDestroy(stop);\n'}
+[0.545453] (cuda_depth_register) StderrLine: {'line': b'                           ^\n'}
+[0.546041] (cuda_depth_register) StderrLine: {'line': b'\n'}
+[0.546209] (cuda_depth_register) StderrLine: {'line': b'21 errors detected in the compilation of "/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu".\n'}
+[0.562394] (cuda_depth_register) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/depth_register_cuda.dir/build.make:77: CMakeFiles/depth_register_cuda.dir/src/depth_register.cu.o] Error 2\n'}
+[0.562744] (cuda_depth_register) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/depth_register_cuda.dir/all] Error 2\n'}
+[0.565642] (cuda_depth_register) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[0.570876] (cuda_depth_register) CommandEnded: {'returncode': 2}
+[0.582446] (cuda_depth_register) JobEnded: {'identifier': 'cuda_depth_register', 'rc': 2}
+[0.593293] (-) EventReactorShutdown: {}

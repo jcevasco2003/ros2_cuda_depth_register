@@ -1,0 +1,23 @@
+[0.013s] Invoking command in '/home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register -- -j6 -l6
+[0.097s] [ 25%] [32mBuilding CUDA object CMakeFiles/depth_register_cuda.dir/src/depth_register.cu.o[0m
+[0.564s] [01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(39)[0m: [01;31merror[0m: identifier "[01mb[0m" is undefined
+[0.564s]       int tile_w = b
+[0.565s]                    ^
+[0.565s] 
+[0.565s] [01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(41)[0m: [01;31merror[0m: expected a ";"
+[0.565s]       if (u >= depth_w || v >= depth_h) return;
+[0.565s]       ^
+[0.565s] 
+[0.565s] [01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(228)[0m: [01;31merror[0m: expression must be a modifiable lvalue
+[0.565s]           depth[gidx] = s_depth[local_idx];
+[0.565s]           ^
+[0.566s] 
+[0.566s] [01m[0m[01m/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu(262)[0m: [01;31merror[0m: expression must be a modifiable lvalue
+[0.566s]           depth[gidx] = best_depth;
+[0.566s]           ^
+[0.566s] 
+[0.571s] 4 errors detected in the compilation of "/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu".
+[0.593s] gmake[2]: *** [CMakeFiles/depth_register_cuda.dir/build.make:77: CMakeFiles/depth_register_cuda.dir/src/depth_register.cu.o] Error 2
+[0.594s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/depth_register_cuda.dir/all] Error 2
+[0.594s] gmake: *** [Makefile:146: all] Error 2
+[0.596s] Invoked command in '/home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register -- -j6 -l6

@@ -1,0 +1,2 @@
+[ 50%] Built target depth_register_cuda
+[ 75%] [32mBuilding CXX object CMakeFiles/cuda_depth_register_node.dir/src/cuda_depth_register_node.cpp.o[0m

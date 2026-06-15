@@ -1,0 +1,55 @@
+[0.012s] Invoking command in '/home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register -- -j6 -l6
+[0.085s] [ 25%] [32mBuilding CUDA object CMakeFiles/depth_register_cuda.dir/src/depth_register.cu.o[0m
+[1.298s] [ 50%] [32m[1mLinking CUDA static library libdepth_register_cuda.a[0m
+[1.350s] [ 50%] Built target depth_register_cuda
+[1.481s] [ 75%] [32mBuilding CXX object CMakeFiles/cuda_depth_register_node.dir/src/cuda_depth_register_node.cpp.o[0m
+[1.877s] In file included from [01m[K/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/cuda_depth_register_node.cpp:4[m[K:
+[1.877s] [01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[1.877s]    40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+[1.877s]       |    [01;35m[K^~~~~~~[m[K
+[1.902s] In file included from [01m[K/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/cuda_depth_register_node.cpp:5[m[K:
+[1.902s] [01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[1.902s]    40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+[1.902s]       |    [01;35m[K^~~~~~~[m[K
+[4.443s] [01m[K/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/cuda_depth_register_node.cpp:[m[K In destructor ‘[01m[Kvirtual CudaDepthRegisterNode::[01;32m[K~CudaDepthRegisterNode[m[K()[m[K’:
+[4.443s] [01m[K/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/cuda_depth_register_node.cpp:52:26:[m[K [01;31m[Kerror: [m[K‘[01m[KcudaFree[m[K’ was not declared in this scope
+[4.443s]    52 |         if (d_depth_in_) [01;31m[KcudaFree[m[K(d_depth_in_);
+[4.444s]       |                          [01;31m[K^~~~~~~~[m[K
+[4.450s] [01m[K/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/cuda_depth_register_node.cpp:53:27:[m[K [01;31m[Kerror: [m[K‘[01m[KcudaFree[m[K’ was not declared in this scope
+[4.450s]    53 |         if (d_depth_out_) [01;31m[KcudaFree[m[K(d_depth_out_);
+[4.450s]       |                           [01;31m[K^~~~~~~~[m[K
+[4.456s] [01m[K/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/cuda_depth_register_node.cpp:54:26:[m[K [01;31m[Kerror: [m[K‘[01m[KcudaFree[m[K’ was not declared in this scope
+[4.456s]    54 |         if (d_z_buffer_) [01;31m[KcudaFree[m[K(d_z_buffer_);
+[4.456s]       |                          [01;31m[K^~~~~~~~[m[K
+[4.463s] [01m[K/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/cuda_depth_register_node.cpp:[m[K In member function ‘[01m[Kvoid CudaDepthRegisterNode::[01;32m[KensureBuffers[m[K(int, int)[m[K’:
+[4.463s] [01m[K/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/cuda_depth_register_node.cpp:71:30:[m[K [01;31m[Kerror: [m[K‘[01m[KcudaFree[m[K’ was not declared in this scope
+[4.463s]    71 |             if (d_depth_in_) [01;31m[KcudaFree[m[K(d_depth_in_);
+[4.463s]       |                              [01;31m[K^~~~~~~~[m[K
+[4.469s] [01m[K/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/cuda_depth_register_node.cpp:72:13:[m[K [01;31m[Kerror: [m[K‘[01m[KcudaMalloc[m[K’ was not declared in this scope; did you mean ‘[01m[Kcalloc[m[K’?
+[4.469s]    72 |             [01;31m[KcudaMalloc[m[K(&d_depth_in_, depth_pixels * sizeof(uint16_t));
+[4.469s]       |             [01;31m[K^~~~~~~~~~[m[K
+[4.469s]       |             [32m[Kcalloc[m[K
+[4.475s] [01m[K/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/cuda_depth_register_node.cpp:77:31:[m[K [01;31m[Kerror: [m[K‘[01m[KcudaFree[m[K’ was not declared in this scope
+[4.475s]    77 |             if (d_depth_out_) [01;31m[KcudaFree[m[K(d_depth_out_);
+[4.475s]       |                               [01;31m[K^~~~~~~~[m[K
+[4.481s] [01m[K/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/cuda_depth_register_node.cpp:78:30:[m[K [01;31m[Kerror: [m[K‘[01m[KcudaFree[m[K’ was not declared in this scope
+[4.481s]    78 |             if (d_z_buffer_) [01;31m[KcudaFree[m[K(d_z_buffer_);
+[4.481s]       |                              [01;31m[K^~~~~~~~[m[K
+[4.489s] [01m[K/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/cuda_depth_register_node.cpp:80:13:[m[K [01;31m[Kerror: [m[K‘[01m[KcudaMalloc[m[K’ was not declared in this scope; did you mean ‘[01m[Kcalloc[m[K’?
+[4.489s]    80 |             [01;31m[KcudaMalloc[m[K(&d_depth_out_, color_pixels * sizeof(uint16_t));
+[4.489s]       |             [01;31m[K^~~~~~~~~~[m[K
+[4.489s]       |             [32m[Kcalloc[m[K
+[4.510s] [01m[K/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/cuda_depth_register_node.cpp:[m[K In member function ‘[01m[Kvoid CudaDepthRegisterNode::[01;32m[KdepthCallback[m[K(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.510s] [01m[K/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/cuda_depth_register_node.cpp:230:13:[m[K [01;31m[Kerror: [m[K‘[01m[KcudaMemcpyHostToDevice[m[K’ was not declared in this scope
+[4.510s]   230 |             [01;31m[KcudaMemcpyHostToDevice[m[K
+[4.510s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.517s] [01m[K/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/cuda_depth_register_node.cpp:226:9:[m[K [01;31m[Kerror: [m[K‘[01m[KcudaMemcpy[m[K’ was not declared in this scope
+[4.517s]   226 |         [01;31m[KcudaMemcpy[m[K(
+[4.517s]       |         [01;31m[K^~~~~~~~~~[m[K
+[4.529s] [01m[K/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/cuda_depth_register_node.cpp:249:13:[m[K [01;31m[Kerror: [m[K‘[01m[KcudaMemcpyDeviceToHost[m[K’ was not declared in this scope
+[4.529s]   249 |             [01;31m[KcudaMemcpyDeviceToHost[m[K
+[4.530s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.835s] gmake[2]: *** [CMakeFiles/cuda_depth_register_node.dir/build.make:76: CMakeFiles/cuda_depth_register_node.dir/src/cuda_depth_register_node.cpp.o] Error 1
+[7.835s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cuda_depth_register_node.dir/all] Error 2
+[7.836s] gmake: *** [Makefile:146: all] Error 2
+[7.839s] Invoked command in '/home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register -- -j6 -l6

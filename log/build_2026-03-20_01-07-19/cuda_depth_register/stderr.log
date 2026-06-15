@@ -1,0 +1,35 @@
+[33mCMake Warning (dev) at /usr/local/lib/cmake/opencv4/OpenCVConfig.cmake:86 (find_package):
+  Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake
+  --help-policy CMP0146" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /usr/local/lib/cmake/opencv4/OpenCVConfig.cmake:108 (find_host_package)
+  /opt/ros/rolling/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/rolling/share/cv_bridge/cmake/cv_bridgeConfig.cmake:41 (include)
+  CMakeLists.txt:16 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(cuda_depth_register_node PUBLIC
+      ${sensor_msgs_TARGETS}
+      cv_bridge::cv_bridge
+      image_transport::image_transport
+      rclcpp::rclcpp
+      sensor_msgs::sensor_msgs_library
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:41 (ament_target_dependencies)
+
+[0m
+[01m[K/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/depth_register.cu:4:10:[m[K [01;31m[Kfatal error: [m[Kdepth_register.hpp: No such file or directory
+    4 | #include [01;31m[K"depth_register.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/depth_register_cuda.dir/build.make:77: CMakeFiles/depth_register_cuda.dir/src/depth_register.cu.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/depth_register_cuda.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

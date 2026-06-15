@@ -1,0 +1,123 @@
+[0.000000] (-) TimerEvent: {}
+[0.000175] (cuda_depth_register) JobQueued: {'identifier': 'cuda_depth_register', 'dependencies': OrderedDict()}
+[0.000243] (cuda_depth_register) JobStarted: {'identifier': 'cuda_depth_register'}
+[0.008217] (cuda_depth_register) JobProgress: {'identifier': 'cuda_depth_register', 'progress': 'cmake'}
+[0.009829] (cuda_depth_register) JobProgress: {'identifier': 'cuda_depth_register', 'progress': 'build'}
+[0.009901] (cuda_depth_register) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register', '--', '-j6', '-l6'], 'cwd': '/home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jorge', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jorge/ros2_thesis_ws/src/VIGS-Fusion/install/vigs_fusion/lib:/usr/local/lib:/home/jorge/ros2_thesis_ws/src/f_vigs_slam/install/f_vigs_slam/lib:/usr/local/cuda-12.3/lib64:/opt/ros/rolling/opt/zenoh_cpp_vendor/lib:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib:/usr/local/cuda-11.8/lib64:', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/jorge', 'OLDPWD': '/home/jorge/ros2_thesis_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jorge/ros2_thesis_ws/src/VIGS-Fusion/install:/home/jorge/ros2_thesis_ws/src/f_vigs_slam/install', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'jorge', 'NAME': 'DESKTOP-ECKJB30', 'WSL_INTEROP': '/run/WSL/284_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/usr/local/cuda-12.3/bin:/opt/ros/rolling/bin:/usr/local/cuda-11.8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/NVIDIA/bin:/mnt/d/NVIDIA/libnvvp:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Users/jorge/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/IntelliJ IDEA Community Edition 2024.3/bin:/mnt/d/Program Files (x86)/Microsoft VS Code/bin:/mnt/c/Users/jorge/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/jorge/.dotnet/tools:/mnt/c/Users/jorge/AppData/Roaming/TinyTeX/bin/windows:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/jorge/ros2_thesis_ws/src/VIGS-Fusion/install/vigs_fusion:/home/jorge/ros2_thesis_ws/src/f_vigs_slam/install/f_vigs_slam:/opt/ros/rolling', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'OpenCV_DIR': '/usr/local/lib/cmake/opencv4', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/rolling/opt/gz_math_vendor/lib/python:/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/jorge/ros2_thesis_ws/src/VIGS-Fusion/install/vigs_fusion:/home/jorge/ros2_thesis_ws/src/f_vigs_slam/install/f_vigs_slam:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling', 'WSLENV': ''}), 'shell': False}
+[0.099112] (-) TimerEvent: {}
+[0.199592] (-) TimerEvent: {}
+[0.300117] (-) TimerEvent: {}
+[0.400993] (-) TimerEvent: {}
+[0.414324] (cuda_depth_register) StdoutLine: {'line': b'-- Found ament_cmake: 2.8.4 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[0.501137] (-) TimerEvent: {}
+[0.601456] (-) TimerEvent: {}
+[0.701790] (-) TimerEvent: {}
+[0.802198] (-) TimerEvent: {}
+[0.866430] (cuda_depth_register) StdoutLine: {'line': b'-- Found rclcpp: 30.1.3 (/opt/ros/rolling/share/rclcpp/cmake)\n'}
+[0.902409] (-) TimerEvent: {}
+[1.002712] (-) TimerEvent: {}
+[1.103065] (-) TimerEvent: {}
+[1.203378] (-) TimerEvent: {}
+[1.303698] (-) TimerEvent: {}
+[1.404076] (-) TimerEvent: {}
+[1.497902] (cuda_depth_register) StdoutLine: {'line': b'-- Found rosidl_generator_c: 5.1.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)\n'}
+[1.504188] (-) TimerEvent: {}
+[1.525761] (cuda_depth_register) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 5.1.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)\n'}
+[1.604597] (-) TimerEvent: {}
+[1.705400] (-) TimerEvent: {}
+[1.805734] (-) TimerEvent: {}
+[1.906183] (-) TimerEvent: {}
+[2.006545] (-) TimerEvent: {}
+[2.106900] (-) TimerEvent: {}
+[2.111239] (cuda_depth_register) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.207057] (-) TimerEvent: {}
+[2.307611] (-) TimerEvent: {}
+[2.408686] (-) TimerEvent: {}
+[2.509494] (-) TimerEvent: {}
+[2.609889] (-) TimerEvent: {}
+[2.710256] (-) TimerEvent: {}
+[2.810591] (-) TimerEvent: {}
+[2.869801] (cuda_depth_register) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.910729] (-) TimerEvent: {}
+[3.011149] (-) TimerEvent: {}
+[3.111462] (-) TimerEvent: {}
+[3.169497] (cuda_depth_register) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.9.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)\n'}
+[3.190415] (cuda_depth_register) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.4.4 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.211610] (-) TimerEvent: {}
+[3.311946] (-) TimerEvent: {}
+[3.412315] (-) TimerEvent: {}
+[3.466875] (cuda_depth_register) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.512460] (-) TimerEvent: {}
+[3.612778] (-) TimerEvent: {}
+[3.713094] (-) TimerEvent: {}
+[3.735685] (cuda_depth_register) StdoutLine: {'line': b'-- Found sensor_msgs: 5.9.1 (/opt/ros/rolling/share/sensor_msgs/cmake)\n'}
+[3.813266] (-) TimerEvent: {}
+[3.876555] (cuda_depth_register) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/rolling/share/cv_bridge/cmake)\n'}
+[3.904337] (cuda_depth_register) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/cmake/opencv4/OpenCVConfig.cmake:86 (find_package):\n'}
+[3.904878] (cuda_depth_register) StderrLine: {'line': b'  Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake\n'}
+[3.904965] (cuda_depth_register) StderrLine: {'line': b'  --help-policy CMP0146" for policy details.  Use the cmake_policy command to\n'}
+[3.905067] (cuda_depth_register) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[3.905141] (cuda_depth_register) StderrLine: {'line': b'\n'}
+[3.905209] (cuda_depth_register) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.905277] (cuda_depth_register) StderrLine: {'line': b'  /usr/local/lib/cmake/opencv4/OpenCVConfig.cmake:108 (find_host_package)\n'}
+[3.905343] (cuda_depth_register) StderrLine: {'line': b'  /opt/ros/rolling/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[3.905408] (cuda_depth_register) StderrLine: {'line': b'  /opt/ros/rolling/share/cv_bridge/cmake/cv_bridgeConfig.cmake:41 (include)\n'}
+[3.905472] (cuda_depth_register) StderrLine: {'line': b'  CMakeLists.txt:16 (find_package)\n'}
+[3.905536] (cuda_depth_register) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.905601] (cuda_depth_register) StderrLine: {'line': b'\x1b[0m\n'}
+[3.913386] (-) TimerEvent: {}
+[4.013654] (-) TimerEvent: {}
+[4.113946] (-) TimerEvent: {}
+[4.196944] (cuda_depth_register) StdoutLine: {'line': b'-- Found image_transport: 6.4.3 (/opt/ros/rolling/share/image_transport/cmake)\n'}
+[4.214118] (-) TimerEvent: {}
+[4.314678] (-) TimerEvent: {}
+[4.415566] (-) TimerEvent: {}
+[4.515872] (-) TimerEvent: {}
+[4.574231] (cuda_depth_register) StdoutLine: {'line': b'-- Found tf2: 0.45.3 (/opt/ros/rolling/share/tf2/cmake)\n'}
+[4.596640] (cuda_depth_register) StdoutLine: {'line': b'-- Found tf2_ros: 0.45.3 (/opt/ros/rolling/share/tf2_ros/cmake)\n'}
+[4.616002] (-) TimerEvent: {}
+[4.716342] (-) TimerEvent: {}
+[4.816654] (-) TimerEvent: {}
+[4.900346] (cuda_depth_register) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.45.3 (/opt/ros/rolling/share/tf2_geometry_msgs/cmake)\n'}
+[4.916795] (-) TimerEvent: {}
+[5.017167] (-) TimerEvent: {}
+[5.049623] (cuda_depth_register) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):\n'}
+[5.049824] (cuda_depth_register) StderrLine: {'line': b'  ament_target_dependencies() is deprecated.  Use target_link_libraries()\n'}
+[5.049902] (cuda_depth_register) StderrLine: {'line': b'  with modern CMake targets instead.  Try replacing this call with:\n'}
+[5.049973] (cuda_depth_register) StderrLine: {'line': b'\n'}
+[5.050043] (cuda_depth_register) StderrLine: {'line': b'    target_link_libraries(cuda_depth_register_node PUBLIC\n'}
+[5.050111] (cuda_depth_register) StderrLine: {'line': b'      ${sensor_msgs_TARGETS}\n'}
+[5.050177] (cuda_depth_register) StderrLine: {'line': b'      cv_bridge::cv_bridge\n'}
+[5.050242] (cuda_depth_register) StderrLine: {'line': b'      image_transport::image_transport\n'}
+[5.050306] (cuda_depth_register) StderrLine: {'line': b'      rclcpp::rclcpp\n'}
+[5.050408] (cuda_depth_register) StderrLine: {'line': b'      sensor_msgs::sensor_msgs_library\n'}
+[5.050518] (cuda_depth_register) StderrLine: {'line': b'    )\n'}
+[5.050586] (cuda_depth_register) StderrLine: {'line': b'\n'}
+[5.050652] (cuda_depth_register) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.050718] (cuda_depth_register) StderrLine: {'line': b'  CMakeLists.txt:52 (ament_target_dependencies)\n'}
+[5.050784] (cuda_depth_register) StderrLine: {'line': b'\n'}
+[5.050849] (cuda_depth_register) StderrLine: {'line': b'\x1b[0m\n'}
+[5.117289] (-) TimerEvent: {}
+[5.217638] (-) TimerEvent: {}
+[5.218614] (cuda_depth_register) StdoutLine: {'line': b'-- Configuring done (5.1s)\n'}
+[5.317862] (-) TimerEvent: {}
+[5.418294] (-) TimerEvent: {}
+[5.427558] (cuda_depth_register) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[5.492740] (cuda_depth_register) StdoutLine: {'line': b'-- Build files have been written to: /home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register\n'}
+[5.518527] (-) TimerEvent: {}
+[5.549457] (cuda_depth_register) StdoutLine: {'line': b'[ 50%] Built target depth_register_cuda\n'}
+[5.577133] (cuda_depth_register) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/cuda_depth_register_node.dir/src/cuda_depth_register_node.cpp.o\x1b[0m\n'}
+[5.618647] (-) TimerEvent: {}
+[5.718957] (-) TimerEvent: {}
+[5.819268] (-) TimerEvent: {}
+[5.919591] (-) TimerEvent: {}
+[5.943356] (cuda_depth_register) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jorge/ros2_thesis_ws/src/cuda_depth_register/src/cuda_depth_register_node.cpp:4:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktf2_ros/buffer.hpp: No such file or directory\n'}
+[5.943543] (cuda_depth_register) StderrLine: {'line': b'    4 | #include \x1b[01;31m\x1b[K<tf2_ros/buffer.hpp>\x1b[m\x1b[K\n'}
+[5.943620] (cuda_depth_register) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.943690] (cuda_depth_register) StderrLine: {'line': b'compilation terminated.\n'}
+[5.948160] (cuda_depth_register) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cuda_depth_register_node.dir/build.make:76: CMakeFiles/cuda_depth_register_node.dir/src/cuda_depth_register_node.cpp.o] Error 1\n'}
+[5.948621] (cuda_depth_register) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cuda_depth_register_node.dir/all] Error 2\n'}
+[5.948788] (cuda_depth_register) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.951752] (cuda_depth_register) CommandEnded: {'returncode': 2}
+[5.959758] (cuda_depth_register) JobEnded: {'identifier': 'cuda_depth_register', 'rc': 2}
+[5.961317] (-) EventReactorShutdown: {}

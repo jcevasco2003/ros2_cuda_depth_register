@@ -1,0 +1,50 @@
+[0.013s] Invoking command in '/home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register -- -j6 -l6
+[8.173s] -- The CUDA compiler identification is NVIDIA 12.3.52
+[8.319s] -- Detecting CUDA compiler ABI info
+[9.535s] -- Detecting CUDA compiler ABI info - done
+[9.563s] -- Check for working CUDA compiler: /usr/local/cuda-12.3/bin/nvcc - skipped
+[9.761s] -- Detecting CUDA compile features
+[9.761s] -- Detecting CUDA compile features - done
+[9.762s] -- Found ament_cmake: 2.8.4 (/opt/ros/rolling/share/ament_cmake/cmake)
+[9.984s] -- Found rclcpp: 30.1.3 (/opt/ros/rolling/share/rclcpp/cmake)
+[10.050s] -- Found rosidl_generator_c: 5.1.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[10.055s] -- Found rosidl_generator_cpp: 5.1.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[10.063s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.073s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.130s] -- Found rmw_implementation_cmake: 7.9.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[10.131s] -- Found rmw_fastrtps_cpp: 9.4.4 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[10.171s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.232s] -- Found sensor_msgs: 5.9.1 (/opt/ros/rolling/share/sensor_msgs/cmake)
+[10.287s] -- Found cv_bridge: 4.1.0 (/opt/ros/rolling/share/cv_bridge/cmake)
+[10.289s] [33mCMake Warning (dev) at /usr/local/lib/cmake/opencv4/OpenCVConfig.cmake:86 (find_package):
+[10.289s]   Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake
+[10.289s]   --help-policy CMP0146" for policy details.  Use the cmake_policy command to
+[10.289s]   set the policy and suppress this warning.
+[10.289s] 
+[10.289s] Call Stack (most recent call first):
+[10.289s]   /usr/local/lib/cmake/opencv4/OpenCVConfig.cmake:108 (find_host_package)
+[10.289s]   /opt/ros/rolling/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[10.290s]   /opt/ros/rolling/share/cv_bridge/cmake/cv_bridgeConfig.cmake:41 (include)
+[10.290s]   CMakeLists.txt:16 (find_package)
+[10.290s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.290s] [0m
+[10.337s] -- Found CUDA: /usr/local/cuda-12.3 (found suitable exact version "12.3") 
+[10.367s] -- Found image_transport: 6.4.3 (/opt/ros/rolling/share/image_transport/cmake)
+[10.466s] -- Configuring done (10.4s)
+[10.484s] [31mCMake Error at CMakeLists.txt:41 (target_link_libraries):
+[10.484s]   Target "cuda_depth_register_node" links to:
+[10.484s] 
+[10.484s]     sensor_msgs::sensor_msgs
+[10.484s] 
+[10.484s]   but the target was not found.  Possible reasons include:
+[10.484s] 
+[10.484s]     * There is a typo in the target name.
+[10.484s]     * A find_package call is missing for an IMPORTED target.
+[10.484s]     * An ALIAS target is missing.
+[10.484s] 
+[10.484s] 
+[10.484s] [0m
+[10.485s] -- Generating done (0.0s)
+[10.542s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[10.553s] gmake: *** [Makefile:281: cmake_check_build_system] Error 1
+[10.556s] Invoked command in '/home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/jorge/ros2_thesis_ws/src/cuda_depth_register/build/cuda_depth_register -- -j6 -l6

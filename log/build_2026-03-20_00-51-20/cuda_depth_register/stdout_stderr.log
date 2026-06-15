@@ -1,0 +1,101 @@
+[31mCMake Error at /usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:780 (message):
+  Compiling the CUDA compiler identification source file
+  "CMakeCUDACompilerId.cu" failed.
+
+  Compiler: /usr/local/cuda-12.3/bin/nvcc
+
+  Build flags:
+
+  Id flags: --keep;--keep-dir;tmp -v
+
+
+
+  The output was:
+
+  1
+
+  #$ _NVVM_BRANCH_=nvvm
+
+  #$ _SPACE_=
+
+  #$ _CUDART_=cudart
+
+  #$ _HERE_=/usr/local/cuda-12.3/bin
+
+  #$ _THERE_=/usr/local/cuda-12.3/bin
+
+  #$ _TARGET_SIZE_=
+
+  #$ _TARGET_DIR_=
+
+  #$ _TARGET_DIR_=targets/x86_64-linux
+
+  #$ TOP=/usr/local/cuda-12.3/bin/..
+
+  #$ NVVMIR_LIBRARY_DIR=/usr/local/cuda-12.3/bin/../nvvm/libdevice
+
+  #$
+  LD_LIBRARY_PATH=/usr/local/cuda-12.3/bin/../lib:/home/jorge/ros2_thesis_ws/src/VIGS-Fusion/install/vigs_fusion/lib:/usr/local/lib:/home/jorge/ros2_thesis_ws/src/f_vigs_slam/install/f_vigs_slam/lib:/usr/local/cuda-12.3/lib64:/opt/ros/rolling/opt/zenoh_cpp_vendor/lib:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib:/usr/local/cuda-11.8/lib64:
+
+
+  #$
+  PATH=/usr/local/cuda-12.3/bin/../nvvm/bin:/usr/local/cuda-12.3/bin:/usr/local/cuda-12.3/bin:/opt/ros/rolling/bin:/usr/local/cuda-11.8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/NVIDIA/bin:/mnt/d/NVIDIA/libnvvp:/mnt/c/Program
+  Files/NVIDIA Corporation/Nsight Compute
+  2022.3.0/:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Users/jorge/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program
+  Files/IntelliJ IDEA Community Edition 2024.3/bin:/mnt/d/Program Files
+  (x86)/Microsoft VS
+  Code/bin:/mnt/c/Users/jorge/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/jorge/.dotnet/tools:/mnt/c/Users/jorge/AppData/Roaming/TinyTeX/bin/windows:/snap/bin
+
+
+  #$ INCLUDES="-I/usr/local/cuda-12.3/bin/../targets/x86_64-linux/include"
+
+  #$ LIBRARIES=
+  "-L/usr/local/cuda-12.3/bin/../targets/x86_64-linux/lib/stubs"
+  "-L/usr/local/cuda-12.3/bin/../targets/x86_64-linux/lib"
+
+  #$ CUDAFE_FLAGS=
+
+  #$ PTXAS_FLAGS=
+
+  #$ rm tmp/a_dlink.reg.c
+
+  #$ gcc -D__CUDA_ARCH_LIST__=520 -E -x c++ -D__CUDACC__ -D__NVCC__
+  "-I/usr/local/cuda-12.3/bin/../targets/x86_64-linux/include"
+  -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=3
+  -D__CUDACC_VER_BUILD__=52 -D__CUDA_API_VER_MAJOR__=12
+  -D__CUDA_API_VER_MINOR__=3 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -include
+  "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" -o
+  "tmp/CMakeCUDACompilerId.cpp4.ii"
+
+  In file included from
+  /usr/local/cuda-12.3/bin/../targets/x86_64-linux/include/cuda_runtime.h:82,
+
+
+                   from <command-line>:
+
+  
+  /usr/local/cuda-12.3/bin/../targets/x86_64-linux/include/crt/host_config.h:143:2:
+  error: #error -- unsupported GNU version! gcc versions later than 12 are
+  not supported! The nvcc flag '-allow-unsupported-compiler' can be used to
+  override this version check; however, using an unsupported host compiler
+  may cause compilation failure or incorrect run time execution.  Use at your
+  own risk.
+
+    143 | #error -- unsupported GNU version! gcc versions later than 12 are not supported! The nvcc flag '-allow-unsupported-compiler' can be used to override this version check; however, using an unsupported host compiler may cause compilation failure or incorrect run time execution. Use at your own risk.
+        |  ^~~~~
+
+  # --error 0x1 --
+
+
+
+
+
+Call Stack (most recent call first):
+  /usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:53 (__determine_compiler_id_test)
+  /usr/share/cmake-3.28/Modules/CMakeDetermineCUDACompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:8 (enable_language)
+
+[0m
+-- Configuring incomplete, errors occurred!
+gmake: *** [Makefile:281: cmake_check_build_system] Error 1
